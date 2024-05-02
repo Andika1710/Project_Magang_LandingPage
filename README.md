@@ -1,1 +1,1 @@
-# Landing_Page_ECESI2024
+# Project_Magang
