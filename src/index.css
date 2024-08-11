@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.circular-text {
+    position: relative;
+    width: 340px;
+    height: 340px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .circular-text p {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    transform-origin: center;
+  }
+  
+  .circular-text p:nth-child(1) {
+    transform: rotate(-45deg) translateY(-170px);
+  }
+  
+  .circular-text p:nth-child(2) {
+    transform: rotate(45deg) translateY(-170px);
+  }
